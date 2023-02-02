@@ -1,0 +1,547 @@
+[
+  {
+    "name": "id",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "uuid",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "name",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "actualProcessTime",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "date",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "actualQueueTime",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "date",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "avgProcessTime",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "date",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "avgQueueTime",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "date",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "consigneeOrgId",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "uuid",
+      "relationship": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "consigneeOrg",
+    "description": "An object relationship",
+    "args": [],
+    "type": {
+      "kind": "OBJECT",
+      "name": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "consignorOrgId",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "uuid",
+      "relationship": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "consignorOrg",
+    "description": "An object relationship",
+    "args": [],
+    "type": {
+      "kind": "OBJECT",
+      "name": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "customsOrgId",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "uuid",
+      "relationship": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "customsOrg",
+    "description": "An object relationship",
+    "args": [],
+    "type": {
+      "kind": "OBJECT",
+      "name": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "description",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "freightForwarderOrgId",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "uuid",
+      "relationship": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "freightForwarderOrg",
+    "description": "An object relationship",
+    "args": [],
+    "type": {
+      "kind": "OBJECT",
+      "name": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "fromShippingCarrierOrgId",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "uuid",
+      "relationship": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "fromShippingCarrierOrg",
+    "description": "An object relationship",
+    "args": [],
+    "type": {
+      "kind": "OBJECT",
+      "name": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "geo",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "latitude",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "longitude",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "manufacturerOrgId",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "uuid",
+      "relationship": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "manufacturerOrg",
+    "description": "An object relationship",
+    "args": [],
+    "type": {
+      "kind": "OBJECT",
+      "name": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "organizationFunction",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "originDestinationAgentOrgId",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "uuid",
+      "relationship": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "originDestinationAgentOrg",
+    "description": "An object relationship",
+    "args": [],
+    "type": {
+      "kind": "OBJECT",
+      "name": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "shippingId",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "smartContractId",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "uuid",
+      "relationship": "SmartContract",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "smartContract",
+    "description": "An object relationship",
+    "args": [],
+    "type": {
+      "kind": "OBJECT",
+      "name": "SmartContract",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "status",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "toShippingCarrierOrgId",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "uuid",
+      "relationship": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "toShippingCarrierOrg",
+    "description": "An object relationship",
+    "args": [],
+    "type": {
+      "kind": "OBJECT",
+      "name": "Organization",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "waypointC2c",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "String",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "waypointCt",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "String",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "waypointNumber",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "waypointPoi",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "SCALAR",
+      "name": "String",
+      "ofType": null
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "waypointTotal",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "createdAt",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "timestamptz",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "updatedAt",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "timestamptz",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  },
+  {
+    "name": "isDeleted",
+    "description": null,
+    "args": [],
+    "type": {
+      "kind": "NON_NULL",
+      "name": null,
+      "ofType": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    "isDeprecated": false,
+    "deprecationReason": null
+  }
+]
+
+
+
+REACT_APP_AUTH_URL=https://auth.dev.crwd.id
+REACT_APP_AUTH_CLIENT_ID=464b75aa-1bd0-41c9-9262-2e833dbbf0de
+REACT_APP_JWT_CLAIMS_KEY=https://hasura.io/jwt/claims
+
+REACT_APP_SITE_URL=http://localhost:3000
+REACT_APP_GRAPHQL_URL=https://crwd-wallet-dev.hasura.app/v1/graphql
+REACT_APP_FILE_URL=https://files.dev.crwd.systems
+
+REACT_APP_DEBUG=true
